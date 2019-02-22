@@ -2052,6 +2052,10 @@ SECTION MARGIN
     display: none;    
 }
 
+.modal-title {
+    color: #982d91;
+}
+
 /*circle wave*/
 @-webkit-keyframes ripple {
     0% {
