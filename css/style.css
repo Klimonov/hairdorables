@@ -2069,6 +2069,27 @@ SECTION MARGIN
     color: #982d91;
 }
 
+.modal-body p {
+    white-space: pre-line;
+}
+
+h6 {
+    margin-top: 30px;
+    font-family: 'futura', sans-serif;
+}
+
+.modal-content ul {
+    list-style-type: disc; 
+    list-style-position: inside;
+    font-family: 'futura';
+}
+.modal-content ol {
+    list-style: decimal;
+    list-style-position: inside;
+    font-family: 'futura';
+    margin-left: 30px;
+}
+
 /*circle wave*/
 @-webkit-keyframes ripple {
     0% {
