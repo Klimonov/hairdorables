@@ -2794,6 +2794,7 @@ form>p {
     }
     #features .middle-text {
         margin-top: 10px;
+        text-align: center;
     }
     #features p {
         margin-bottom: 20px;
@@ -2807,8 +2808,11 @@ form>p {
     }
     form>p {
         color: white;
-        font-size: 23px;
-        line-height: 84px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-us-form {
+        margin-top: 65px;
     }
     .price-img {
         position: relative;
@@ -2843,11 +2847,27 @@ form>p {
         width: 100%;
         text-align: center;
     }
+    .hero-content p {
+        font-size: 23px;
+    }
+    .slider-action-btn {
+        font-size: 26px;
+        text-align: center;
+    }
+    .section-heading h3 {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 480px) and (min-width: 415px) {
     .hero-content-wrap {
         height: auto;
         padding-top: 40px!important;
+    }
+}
+@media screen and (max-width: 375px) and (min-width: 361px) {
+    .hero-content-wrap {
+        height: auto;
+        padding-top: 46px!important;
     }
 }
