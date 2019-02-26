@@ -2074,7 +2074,8 @@ SECTION MARGIN
 }
 
 h6 {
-    margin-top: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: 'futura', sans-serif;
 }
 
