@@ -2808,8 +2808,9 @@ form>p {
     }
     form>p {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 30px;
+        text-align: center;
     }
     .contact-us-form {
         margin-top: 65px;
@@ -2851,7 +2852,7 @@ form>p {
         font-size: 23px;
     }
     .slider-action-btn {
-        font-size: 26px;
+        font-size: 24px;
         text-align: center;
     }
     .section-heading h3 {
@@ -2866,6 +2867,12 @@ form>p {
     }
 }
 @media screen and (max-width: 375px) and (min-width: 361px) {
+    .hero-content-wrap {
+        height: auto;
+        padding-top: 46px!important;
+    }
+}
+@media screen and (max-width: 360px) and (min-width: 321px) {
     .hero-content-wrap {
         height: auto;
         padding-top: 46px!important;
