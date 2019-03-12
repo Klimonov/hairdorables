@@ -14,8 +14,8 @@ function borderColor(tag, color) {
 }
 
 // ---------- button click event
-if (btn = $("#paynow")) {
-    btn.addEventListener("click", sendPaymentRequest, false);
+if ( btn = document.querySelector("#paynow") ) {
+	btn.addEventListener("click", sendPaymentRequest, false);
 }
 
 function sendPaymentRequest(e) {

@@ -21,8 +21,9 @@
 11. TESTIMONIAL SECTION CSS
 12. CONTACT US SECTION CSS
 13. FOOTER SECTION CSS
-14. PRELOADER CSS
-15. BACK TO TOP SECTION CSS
+14. THANK YOU PAGE
+15. PRELOADER CSS
+16. BACK TO TOP SECTION CSS
 
 
 /* ----------------------------------------------------
@@ -2671,8 +2672,58 @@ form>p {
 }
 
 
+/*============================================================
+			14. THANK YOU PAGE
+============================================================*/
+
+.thankyou {
+    background-image: linear-gradient(to bottom, #b92d91 0%, #694d9b 100%);
+    margin-top: -5px;
+    padding-bottom:30px;
+    height: 100vh;
+}
+
+.thankyou .container {
+  	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thankyou p {
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.thankyou a {
+    color: white;
+    border-bottom: 3px dotted white;
+}
+
+.thankyou a:hover {
+    color: white;
+    border-bottom: none;
+}
+
+.thankyou h3 {
+    font-weight: 300;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 47px;
+}
+
+#error-text {
+  font-size: 18px;
+    line-height: 0;
+    margin-bottom: 13px;
+    color: red;
+  	visibility: hidden;
+}
+
 /*====================================
-		14. PRELOADER CSS
+		15. PRELOADER CSS
 ====================================*/
 #preloader {
     position: fixed;
@@ -2752,7 +2803,7 @@ form>p {
 
 
 /*====================================
-			 15. BACK TO TOP CSS
+			 16. BACK TO TOP CSS
 ====================================*/
 #toTop {
     position: fixed;
