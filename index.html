@@ -60,44 +60,6 @@
     <div id="main" class="main-content-wraper">
         <div class="main-content-inner">
 
-            <!--start header section-->
-            <header class="header">
-                <!--start navbar-->
-                <!-- <div class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="navbar-header page-scroll">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#myNavbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand page-scroll" href="index.html">
-                                <img src="img/logo.png" alt="logo" class="img-responsive">
-                            </a>
-                        </div>
-
-                        
-                        <div class="navbar-collapse collapse" id="myNavbar">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a class="page-scroll" href="#hero">Home</a></li>
-                                <li><a class="page-scroll" href="#features">Features</a></li>
-                                <li><a class="page-scroll" href="#products">Products</a></li>
-                                <li><a class="page-scroll" href="#pricing">Pricing</a></li>
-                                <li><a class="page-scroll" href="#faqs">Faq</a></li>
-                                <li><a class="page-scroll" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div> -->
-                <!--end navbar-->
-            </header>
-            <!--end header section-->
-
             <!--main section-->
             <section id="hero" class="section-lg section-hero section-circle" style="background-image: linear-gradient(to bottom, #b92d91 0%, #8d2d91 100%)">
                 <!--background circle shape-->
@@ -288,13 +250,13 @@
 
                             </div>
                             <div class="col-md-6 footer-form">
-                                <form action="#" method="post" class="contact-us-form" novalidate="novalidate">
+                                <form action="#" method="post" class="contact-us-form" novalidate="novalidate" enctype="multipart/form-data">
                                     <p>Заполните пожалуйста ваши данные.<p>
                                     <div class="row">
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="form-group">
                                                 <input type="text" class="form-control" id="name" placeholder="Имя"
-                                                    required="required">
+                                                    required="required" >
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-xs-12">
@@ -307,33 +269,32 @@
                                     <div class="row">
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="form-group">
-                                                <input type="text" name="secname" value="" class="form-control"
+                                                <input type="text" name="secname"  class="form-control"
                                                     id="secname" placeholder="Фамилия">
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="form-group">
-                                                <input type="email" name="email" value="" size="40" class="form-control"
-                                                    id="email" placeholder="E-mail">
+                                                <input type="email" name="email"  size="40" class="form-control"
+                                                    id="email" placeholder="E-mail" required="required">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-xs-12">
                                             <div class="form-group">
-                                                <input type="text" name="address" value="" class="form-control"
-                                                    id="address" placeholder="Адрес доставки">
+                                                <input type="text" name="address"  class="form-control"
+                                                    id="address" placeholder="Адрес доставки" required="required">
                                             </div>
                                         </div>
                                     </div>
+									<p id="error-text">Пожалуйста заполните все поля корректно!</p>
                                     <p class="politic-text">Нажимая на кнопку, я соглашаюсь с политикой
                                         конфиденциальности и даю свое согласие на обработку моих персональных
                                         данных.</p>
                                     <div class="row">
                                         <div class="footer-button">
-                                            <button type="submit" class="btn footer-solid-btn pull-right" id="btnContactUs">
-                                                Заказать
-                                            </button>
+											<button id="paynow" type="button" class="btn footer-solid-btn pull-right" class="round-button">Заказать</button>
                                         </div>
                                     </div>
                                 </div>
@@ -540,6 +501,9 @@
 
     <!-- custom script -->
     <script src="js/scripts.js"></script>
+
+    <!-- payment script -->
+    <script src="js/securepayment.js"></script>
 
 </body>
 
